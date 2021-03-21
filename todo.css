@@ -1,0 +1,65 @@
+body {
+  outline: none;
+}
+
+#input-elements {
+  text-align: center;
+}
+
+.task-group {
+  display: flex;
+}
+
+#add-task {
+  background-color:green;
+  border:1vw solid green;
+  color: white;
+  border-radius: 1vw;
+  font-size: 2vw;
+}
+
+#remove-all-tasks {
+  background-color:red;
+  border:1vw solid red;
+  color: white;
+  border-radius: 1vw;
+  font-size: 2vw;
+}
+
+.task-remove {
+  margin-left: 10vw;
+  background-color:red;
+  border:1vw solid red;
+  color: white;
+  border-radius: 1vw;
+  margin-bottom: 1vw;
+}
+
+.functionality-button {
+  height: 5vw;
+}
+
+.task-name {
+  font-size: 2vw;
+}
+
+input {
+  width: 50vw;
+  height: 5vw;
+  font-size: 2vw;
+  outline: none;
+  border-radius: 1vw;
+  border:0.5vw solid gray;
+}
+
+ul {
+  list-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+::selection {
+  background-color: rgb(111, 185, 255);
+}
